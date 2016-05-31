@@ -1,7 +1,5 @@
-add_action( 'init', 'nct_custom_post_type', 0 ); 
 
- 
- function ntc_list_category_post($atts) {  
+function ntc_list_category_post($atts) {  
    
  extract( shortcode_atts( array(
         'category' => 0,
